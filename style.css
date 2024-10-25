@@ -96,3 +96,23 @@ input {
   -ms-transition: 1s ease-in-out;
   -o-transition: 1s ease-in-out;
 }
+
+#name {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    color: #eee;
+    background: black;
+    font-style: italic;
+    animation: 2s animates linear infinite;
+    -webkit-animation: 2s animates linear infinite;
+}
+
+/* @keyframes animates {
+    from {
+        right: 1rem;
+    }
+    to {
+        left: 1rem;
+    }
+} */
