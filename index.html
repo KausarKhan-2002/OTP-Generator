@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h2 id="heading">OTP Generator</h2>
+        <div id="otp_container">
+            <input class="otp" type="text" required/>
+            <input class="otp" type="text" required/>
+            <input class="otp" type="text" required/>
+            <input class="otp" type="text" required/>
+        </div>
+        <div id="buttons">
+            <button class="button submit">Submit</button>
+            <button class="button generator">Generate</button>
+            <button class="button reset">Reset</button>
+        </div>
+
+        <p id="yourOtp"> Your OTP is: <span id="otp"></span></p>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
